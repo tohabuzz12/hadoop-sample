@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="net.petrikainulainen.spring.data.apachehadoop.WordReducerTest" time="0.009" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="E:\ProgramFiles\Java\jdk1.8.0_91\jre\bin"/>
+    <property name="java.vm.version" value="25.91-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\hadoop\spring-data-examples\spring-data-apache-hadoop-examples-master\mapreduce"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\hadoop\spring-data-examples\spring-data-apache-hadoop-examples-master\mapreduce"/>
+    <property name="java.runtime.version" value="1.8.0_91-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="E:\ProgramFiles\Java\jdk1.8.0_91\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="E:\cygwin\tmp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="E:\ProgramFiles\maven\apache-maven-3.3.9-bin\apache-maven-3.3.9/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="E:\ProgramFiles\Java\jdk1.8.0_91\bin;W:\WINDOWS\Sun\Java\bin;W:\WINDOWS\system32;W:\WINDOWS;E:\cygwin\usr\local\bin;E:\cygwin\bin;W:\ProgramData\Oracle\Java\javapath;W:\WINDOWS\system32;W:\WINDOWS;W:\WINDOWS\System32\Wbem;W:\Program Files\Intel\WiFi\bin;W:\Program Files\Common Files\Intel\WirelessCommon;W:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;W:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;E:\ProgramFiles\Java\jdk1.8.0_91\bin;E:\ProgramFiles\maven\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Giga9.6lite\gigaspaces-xap-premium-9.6.2-ga\bin;E:\ProgramFiles\EAP-6.2.0\jboss-eap-6.2\bin;W:\Users\Toaha\Documents\Sparks\usb\spark-training\spark\bin;W:\Users\Toaha\Documents\Sparks\usb\spark-training\sbt;E:\ProgramFiles\scala\bin;D:\android_sdk\adt-bundle\sdk\platform-tools;W:\Program Files\Microsoft\Web Platform Installer;W:\WINDOWS\System32\WindowsPowerShell\v1.0;W:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn;W:\Program Files\Microsoft SQL Server\100\Tools\Binn;W:\Program Files\Microsoft SQL Server\100\DTS\Binn;W:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn;W:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn;W:\Program Files\Microsoft SQL Server\120\Tools\Binn;W:\Program Files\Microsoft SQL Server\120\DTS\Binn;W:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio;W:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn;E:\ProgramFiles\gradle-2.5\bin;E:\ProgramFiles\mlcp-9.0.3\bin;W:\Users\Toaha\Documents\GitHub\camel\prince-10r7-win64\prince-10r7-win64\bin;W:\WINDOWS\System32\WindowsPowerShell\v1.0;W:\Program Files (x86)\Skype\Phone;E:\ProgramFiles\mlcp-9.0.3\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="W:\Users\toaha.TOAHA-WIN7"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="toaha"/>
+    <property name="java.class.path" value="E:\ProgramFiles\maven\apache-maven-3.3.9-bin\apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="E:\ProgramFiles\Java\jdk1.8.0_91\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean assembly:assembly"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="java.ext.dirs" value="E:\ProgramFiles\Java\jdk1.8.0_91\jre\lib\ext;W:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="E:\ProgramFiles\Java\jdk1.8.0_91\jre\lib\resources.jar;E:\ProgramFiles\Java\jdk1.8.0_91\jre\lib\rt.jar;E:\ProgramFiles\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;E:\ProgramFiles\Java\jdk1.8.0_91\jre\lib\jsse.jar;E:\ProgramFiles\Java\jdk1.8.0_91\jre\lib\jce.jar;E:\ProgramFiles\Java\jdk1.8.0_91\jre\lib\charsets.jar;E:\ProgramFiles\Java\jdk1.8.0_91\jre\lib\jfr.jar;E:\ProgramFiles\Java\jdk1.8.0_91\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\ProgramFiles\maven\apache-maven-3.3.9-bin\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="net.petrikainulainen.spring.data.apachehadoop.WordReducerTest" name="reduceWhenTargetWordIsFound" time="0.009"/>
+  <testcase classname="net.petrikainulainen.spring.data.apachehadoop.WordReducerTest" name="reduceWhenTargetWordIsNotFound" time="0"/>
+</testsuite>
